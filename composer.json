@@ -1,0 +1,51 @@
+{
+    "name": "bayrameker/laravelseo",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bayram Eker",
+            "email": "eker600@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "ArchTech\\SEO\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArchTech\\SEO\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.24|^9.0",
+        "imliam/laravel-blade-helper": "^1.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.23|^7.0",
+        "nunomaduro/larastan": "^1.0",
+        "pestphp/pest": "^1.2",
+        "pestphp/pest-plugin-laravel": "^1.0",
+        "intervention/image": "^2.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArchTech\\SEO\\SEOServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
