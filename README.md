@@ -1,9 +1,5 @@
 # Laravel SEO
 
-This is a simple and extensible package for improving SEO via meta tags, such as OpenGraph tags.
-
-By default, it uses `<title>` and OpenGraph tags. It also ships with a Twitter extension. You're, of course, free to write your own extensions as needed.
-
 **Özellikler**:
 - PHP'den SEO etiketleri ayarlama
 - Blade'den SEO etiketlerini ayarlama
