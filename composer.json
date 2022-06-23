@@ -14,12 +14,12 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "ArchTech\\SEO\\": "src/"
+            "Bayram\\SEO\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArchTech\\SEO\\Tests\\": "tests/"
+            "Bayram\\SEO\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ArchTech\\SEO\\SEOServiceProvider"
+                "Bayram\\SEO\\SEOServiceProvider"
             ]
         }
     },
