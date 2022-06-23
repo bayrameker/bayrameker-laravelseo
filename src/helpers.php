@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use ArchTech\SEO\SEOManager;
+use Bayram\SEO\SEOManager;
 
 if (! function_exists('seo')) {
     function seo(string|array $key = null): SEOManager|string|array|null
