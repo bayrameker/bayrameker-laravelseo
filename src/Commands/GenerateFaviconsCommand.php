@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArchTech\SEO\Commands;
+namespace Bayram\SEO\Commands;
 
 use Illuminate\Console\Command;
 use Intervention\Image\ImageManager;
