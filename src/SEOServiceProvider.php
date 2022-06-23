@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArchTech\SEO;
+namespace Bayram\SEO;
 
 use ArchTech\SEO\Commands\GenerateFaviconsCommand;
 use Illuminate\Support\ServiceProvider;
